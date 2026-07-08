@@ -19,7 +19,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: ''
+                    url: 'https://github.com/chiraggowda0316/DevOps-Lab.git'
             }
         }
 
